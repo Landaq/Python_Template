@@ -103,10 +103,19 @@ IntelliJ(PyCharm)에서 우측의 GitHub Copilot 버튼을 눌러 채팅을 엽�
 계산기 기능을 가진 python 어플리케이션을 만들어 주세요
 ```
 <img width="1447" height="368" alt="image" src="https://github.com/user-attachments/assets/03c535c1-53d7-44bf-a073-ad8a69952f95" />    
-<img width="486" height="783" alt="image" src="https://github.com/user-attachments/assets/df670aa7-1b88-4481-a3df-bbab2d21a9e7" />  
-라고 채팅창에 입력합니다. 채팅 창에 코드를 제시해 줄 것입니다.      
+<img width="486" height="783" alt="image" src="https://github.com/user-attachments/assets/df670aa7-1b88-4481-a3df-bbab2d21a9e7" />    
+<br>  
+라고 채팅창에 입력합니다. 채팅 창에 코드를 제시해 줄 것입니다.         
+  <br>  
 <img width="507" height="777" alt="image" src="https://github.com/user-attachments/assets/ccc73667-d245-4e8d-99e1-975ceb392c4f" />  
 
+`Plan` 모드로 바꾼 다음 동일한 질문을 해보겠습니다.  
+<img width="433" height="751" alt="image" src="https://github.com/user-attachments/assets/7a6c6611-e78a-49c3-957c-482c6412e843" />  
+
+```bash
+계산기 기능을 가진 python 어플리케이션을 만들어 주세요
+```
+  
   
 `Agent` 모드로 바꾼 다음 동일한 질문을 해보겠습니다. `Agent` 모드로 바꾼 후  
 
@@ -120,7 +129,7 @@ IntelliJ(PyCharm)에서 우측의 GitHub Copilot 버튼을 눌러 채팅을 엽�
 
 다시 동일한 질문을 같이 해보았습니다.
 
-`Ask` 모드는 채팅창에서 코드나 답을 제시했었습니다. 이와 달리 `Agent` 모드에선 "계산기 앱 만들어 줘"라고 하면 main.py 파일에 계산기 코드를 넣어 줍니다. 그냥 구경하는 게 아니라 직접 일을 해주는 `Agent`처럼 동작합니다.
+`Ask` 모드는 채팅창에서 코드나 답을 제시했었습니다. `Plan` 모드는 어떻게 작업할 지 상세하게 알려 주었습니다.  이와 달리 `Agent` 모드에선 "계산기 앱 만들어 줘"라고 하면 main.py 파일에 계산기 코드를 넣어 줍니다. 그냥 구경하는 게 아니라 직접 일을 해주는 `Agent`처럼 동작합니다.
 
 지금과 같이 `main.py` 하나만 있는 간단한 프로젝트는 물론이고, 파일이 여러 개 섞여서 머리 아픈 복잡한 프로젝트도 문제없이 수정해줍니다. `Agent` 모드는 여러 내용들을 쫙 훑어보고 어디를 어떻게 고쳐야 할지 스스로 판단해서 여러 파일을 넘나들며 수정해주기 때문입니다.  
 
